@@ -538,7 +538,3 @@ final_answer: 非常高兴能帮助您了解曹操的性格特点以及分享笑
 ```
 
 </details>
-
-<p align="center">
-  <img src="image/README/logo.jpg" alt="Medical Assistant Logo" />
-</p>
