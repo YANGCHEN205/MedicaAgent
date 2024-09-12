@@ -6,6 +6,30 @@
 
 </div>
 
+🔊Multi-Medical-Agent 是一款基于多智能体技术的综合医疗助手，集成了智能预约、医疗知识库、智能诊断和闲聊助手等多项功能。该系统还支持使用向量库和知识图谱进行基于检索增强生成（RAG）的医学知识查询，旨在为用户提供精准、高效的医疗服务。
+
+## 功能介绍
+
+
+| 功能            | 介绍                                                | 完成情况 |
+| --------------- | --------------------------------------------------- | -------- |
+| 模型接入        | 支持dashscope远端接入，同时支持本地大模型接入       | ✅       |
+| 医疗知识库Agent | 支持RAG，支持向量检索，支持知识图谱构建（KG），检索 | ✅       |
+| 智能诊断Agent   | 根据患者信息自动生成诊断报告，支持Function Call     | ✅       |
+| 智能预约Agent   | 查询医生信息，提供预约。支持Function Call           | ✅       |
+| 闲聊Agent       | 正常闲聊，支持文生图，图生文。支持Function Call     | ✅       |
+| 任务分配Agent   | 根据用户意愿智能分配代理Agent，支持Function Call    | ✅       |
+
+## 工作流
+
+项目整体的工作流程如下：
+
+
+<p align="center">
+  <img src="/root/autodl-tmp/MedicaAgent/image/README/main.png" alt="Medical Assistant Logo" width="1000" />
+</p>
+
+
 ## Agent测试样例
 
 **测试代码:**
@@ -28,7 +52,7 @@ if name == "main":
 
 ### 控制中心Agent --> 医疗知识库Agent
 
-测试输入：
+测试输入
 
 `user_input: 腱鞘炎推荐吃什么食物？`
 
@@ -537,15 +561,3 @@ final_answer: 非常高兴能帮助您了解曹操的性格特点以及分享笑
 ```
 
 </details>
-
-<p align="center">
-  <img src="image/README/logo.png" alt="Medical Assistant Logo" width="300" />
-</p>
-
-<p align="center">
-  <img src="image/README/logo.png" alt="Medical Assistant Logo" width="300" />
-</p>
-
-<p align="center">
-  <img src="image/README/logo.png" alt="Medical Assistant Logo" width="300" />
-</p>
