@@ -2,7 +2,7 @@
 <h1>多智能体Agent医疗助手</h1>
 <h2>Multi-Medical-Agent</h2>
 <p align="center">
-  <img src="image/README/logo.jpg" alt="Medical Assistant Logo" />
+  <img src="image/README/logo.png" alt="Medical Assistant Logo" />
 </p>
 
 </div>
