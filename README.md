@@ -26,7 +26,7 @@
 
 
 <p align="center">
-  <img src="/root/autodl-tmp/MedicaAgent/image/README/main.png" alt="Medical Assistant Logo" width="1000" />
+  <img src="image/README/main.png" alt="Medical Assistant Logo" width="1000" />
 </p>
 
 
