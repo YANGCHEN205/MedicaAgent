@@ -50,7 +50,7 @@ if name == "main":
             print(f"输入处理错误: {e}")
 ```
 
-### 控制中心Agent --> 医疗知识库Agent
+**控制中心Agent --> 医疗知识库Agent**
 
 测试输入
 
@@ -161,7 +161,7 @@ final_answer: 很高兴能帮到您，如果您今后有任何其他健康相关
 
 </details>
 
-### 控制中心Agent --> 智能预约Agent
+**控制中心Agent --> 智能预约Agent**
 
 测试输入:
 
@@ -340,7 +340,7 @@ final_answer: 已成功为您预约今天孙悟空医院的外科，主治医师
 
 </details>
 
-### 控制中心Agent --> 智能诊断Agent
+**控制中心Agent --> 智能诊断Agent**
 
 测试输入:
 
@@ -467,7 +467,7 @@ call llm exception, response is: {}
 
 </details>
 
-### 控制中心Agent --> 闲聊Agent
+**控制中心Agent --> 闲聊Agent**
 
 测试输入:
 
