@@ -6,10 +6,9 @@
 
 </div>
 
-🔊Multi-Medical-Agent 是一款基于多智能体技术的综合医疗助手，集成了智能预约、医疗知识库、智能诊断和闲聊助手等多项功能。该系统还支持使用向量库和知识图谱进行基于检索增强生成（RAG）的医学知识查询，旨在为用户提供精准、高效的医疗服务。
+🔊***Multi-Medical-Agent* **是一款基于多智能体技术的综合医疗助手，集成了智能预约、医疗知识库、智能诊断和闲聊助手等多项功能。该系统还支持使用向量库和知识图谱进行基于检索增强生成（RAG）的医学知识查询，旨在为用户提供精准、高效的医疗服务。
 
 ## 功能介绍
-
 
 | 功能            | 介绍                                                | 完成情况 |
 | --------------- | --------------------------------------------------- | -------- |
@@ -24,11 +23,9 @@
 
 项目整体的工作流程如下：
 
-
 <p align="center">
   <img src="image/README/main.png" alt="Medical Assistant Logo" width="1000" />
 </p>
-
 
 ## Agent测试样例
 
@@ -41,7 +38,7 @@ if name == "main":
     while True:
         try:
             sys.stdout.write("请输入你的需求:")
-            sys.stdout.flush()  # 确保提示信息被打印出来
+            sys.stdout.flush()
             user_input = sys.stdin.readline().strip().encode('utf-8').decode('utf-8', errors='ignore')
             if user_input.lower() == 'exit':
                 break    response = agent.agent_execute(user_input, max_request_time=5,debug=True)
@@ -561,3 +558,16 @@ final_answer: 非常高兴能帮助您了解曹操的性格特点以及分享笑
 ```
 
 </details>
+
+## To do
+
+* [ ] 本地知识库管理 支持添加删除知识库
+* [ ] 支持药品具体信息查询
+* [ ] 优化promopt，提升模型识别率
+* [ ] 支持7B本地小模型部署
+
+## 致谢
+
+RAG中的向量库检索和知识图谱参考：[向量库](https://github.com/rainstorm12/KG-RAG)，[知识图谱](https://github.com/liuhuanyong/QASystemOnMedicalKG)
+
+Agent模块参考：[Qwen-Agent](https://github.com/lmeixiu/Agent_qwen)
